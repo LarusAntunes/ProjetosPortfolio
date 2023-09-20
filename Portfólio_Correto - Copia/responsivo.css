@@ -1,0 +1,74 @@
+/* @media(max-width:1280px){
+    body{
+        
+    }
+} */
+
+@media(max-width:936px){
+    .transicao_cima .titulo-estagio {
+        height: 100%;
+        margin: auto;
+        justify-content: center;
+        flex-direction:column;
+        font-size: 20px;
+        
+        
+        /* max-width: 100px; */
+        /* display: none; */
+    }
+
+    .cabecalho .header-linha{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        
+    }
+
+    .menu-lateral{
+        filter: invert(2);
+    }
+}
+
+@media(max-width:768px){
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .transicao_cima .titulo-estagio {
+        height: 100%;
+        margin: auto;
+        margin-top: 60px;
+        justify-content: center;
+        flex-direction:column;
+        font-size: 20px;
+    }
+}
+
+@media(max-width:430px){
+    .transicao_cima .titulo-estagio {
+        width: auto;
+        font-size: smaller;
+    }
+
+    .cabecalho .texto{
+        /* max-width: 200px; */
+    }
+
+    .cabecalho .header-linha{
+        /* width: 100%; */
+    }
+
+    .menu-lateral{
+        display: none;
+    }
+
+    .quadro_curriculo{
+        width: auto;
+    }
+    .quadro_curriculo .container-branco{
+        width: auto;
+        font-size: smaller;
+    }
+
+}
