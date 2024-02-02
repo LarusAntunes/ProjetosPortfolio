@@ -7,7 +7,7 @@ header{
 }
 
 .cabecalho {
-    display: flex;
+    display: flexbox;
     margin: auto;
     /* justify-items: center; */
     align-items: center;
@@ -28,21 +28,20 @@ header{
 }
 
 .menu {
-    width: 30vw;
+    width: 50%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;    
-   
+    flex-wrap:wrap;
+    justify-content:space-between;     
 }
 
+
+
 .header-linha{
+    padding: 10px;
     display:flex ;
-   
     flex-wrap: wrap;
     margin: auto;
-
-   
     text-transform: capitalize;
     font-weight: 500;
      
