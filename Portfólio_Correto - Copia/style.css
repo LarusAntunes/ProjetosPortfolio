@@ -11,19 +11,13 @@
 body {
     margin: 0px;
     width: 100%;
-
     min-height: 100%;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     background-color: #8892b0;
-
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
-
-
 }
-
-
 
 .fundo{
     position: fixed;
@@ -40,14 +34,6 @@ body {
     /* opacity: 0.7; */
 }
 
-.meio {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    /* flex-direction: column; */
-    padding-top: 50px;
-}
-
 .imagem_ {
     height: 15vw;
     width: 15vw;
@@ -56,6 +42,7 @@ body {
     flex-wrap: wrap;
     filter: sepia(1);
     border-radius: 50%;
+    transition: ease-in-out 0.3s;
 }
 
 .imagem_:hover {
@@ -97,29 +84,6 @@ div h2{
     padding: 3px;
 }
 
-
-
-.container-branco {
-    /* display: contents; */
-    display: flex;
-    margin: auto; 
-    /* arrumar para deixar uma margim top */
-    padding: 20px;
-    width: 100vh;
-    height: auto;
-    background-color: #ffffff;
-    border-radius: 50px;
-    /* border-bottom: 1px solid #ccc; TESTAR */
-    
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    line-height: 40px;
-    text-align: center;
-    /* opacity: 0.7; */
-    
-
-}
 .transicao_cima{
     display: flex;
     height: 100px;
@@ -137,15 +101,33 @@ div h2{
 }
 
 .curriculo{
-    margin: 30px 0px 10px 0px;
+    margin: 30px 0px 100px 0px;
 }
 
-.container-branco{
+/* .container-branco{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 0px 20px 0px ;
+} */
+
+.container-branco {
+    display: flex;
+    margin: auto; 
+    margin-top: 35px;
+    padding: 20px;
+    width: 100vh;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 50px;
+    /* border-bottom: 1px solid #ccc; TESTAR */
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    
 }
+
 
 .fundo2 {
     position: fixed;

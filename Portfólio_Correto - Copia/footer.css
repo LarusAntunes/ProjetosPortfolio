@@ -1,5 +1,14 @@
+.footer{
+    background-color: black;
+    padding: 100px;
+    /* position: fixed; */
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+
+}
 .container_footer{
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: auto;
 }
 
@@ -10,12 +19,6 @@
 
 ul{
     list-style: none;
-}
-
-.footer{
-    background-color: black;
-    padding: 70px 0;
-
 }
 
 .footer-col{
@@ -79,7 +82,7 @@ ul{
     background-color: #ffffff;
 }
 
-@media(max-width: 767px){
+/* @media(max-width: 767px){
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -89,4 +92,4 @@ ul{
     .footer-col{
         width: 100%;       
     }
-}
+} */
